@@ -63,7 +63,7 @@ footer {
 
 #highlight {
     margin: auto; 
-    width: 70%; 
+    width: 100%; 
     text-align: center;
     padding: 1%; 
     border: white 1px dotted; 
@@ -73,12 +73,16 @@ footer {
     color: rgb(127, 207, 6); 
 }
 #info {
-    width: 40%; 
+    width: 60%; 
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
     padding: 1%; 
     border: white 1px dotted; 
+}
+
+#info div {
+ text-align: left;
 }
 
 #balloon {

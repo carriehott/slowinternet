@@ -96,7 +96,8 @@ footer {
 
 #info div {
  flex-basis: 1;
- width: 50%; 
+ width: 50%;
+ padding-left: 1%;  
 }
 
 div h3 {

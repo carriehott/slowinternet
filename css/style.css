@@ -23,6 +23,10 @@ header {
 h1 {
     margin-top: 10%; 
 }
+
+a {
+    color: orange; 
+}
 marquee {
     color: pink; 
     font-size: 1.5em;
@@ -54,6 +58,10 @@ main p {
     line-height: 150%;
 }
 
+main img {
+    display: block; 
+    margin: auto; 
+}
 footer {
     width: 100%; 
     padding: 1%; 
@@ -66,11 +74,15 @@ footer {
     width: 100%; 
     text-align: center;
     padding: 1%; 
-    border: white 1px dotted; 
+    border: white 1px dashed; 
 }
 
 #green {
     color: rgb(127, 207, 6); 
+}
+
+#yellow {
+    color: rgb(232, 175, 5); 
 }
 #info {
     width: 60%; 
@@ -78,7 +90,7 @@ footer {
     flex-direction: row;
     justify-content: space-around; 
     padding: 1%; 
-    border: white 1px dotted; 
+    border: white 1px dashed; 
 }
 
 #info div {
@@ -90,7 +102,7 @@ footer {
     font-size: 3em;
     position: absolute; 
     z-index: 25; 
-    animation: balloon infinite 45s alternate; 
+    animation: balloon infinite 120s alternate; 
 }
 
 @keyframes balloon {
@@ -117,7 +129,7 @@ left: 30%;
 
  }
  100% {
-    top: 0%; 
+    top: 40%; 
     left: 0%; 
  }
 

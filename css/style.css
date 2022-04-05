@@ -89,12 +89,23 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
+    flex-wrap: nowrap;
     padding: 1%; 
     border: white 1px dashed; 
 }
 
 #info div {
- text-align: left;
+ flex-basis: 1;
+ width: 50%; 
+}
+
+div h3 {
+    text-align: left;
+}
+
+#info img {
+    flex-basis: 1; 
+    width: 30%; 
 }
 
 #balloon {

@@ -41,7 +41,7 @@ marquee {
 
 main {
     margin: auto; 
-    margin-top: 5%;
+    margin-top: 3%;
     width: 60%; 
 }
 main p {
@@ -76,7 +76,6 @@ footer {
 }
 
 .pink {
-    width: 75%; 
     margin: auto; 
     font-size: 1em;
     text-align: center;
@@ -149,5 +148,10 @@ left: 30%;
 @media screen and (max-width: 600px) {
     html {
         font-size: 75%;
+    }
+
+    h3 {
+        font-size: .75em;
+        font-weight: 400;
     }
 }

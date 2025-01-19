@@ -51,6 +51,12 @@ main p {
     line-height: 150%;
 }
 
+iframe {
+    width: 100%; 
+    height: 100rem; 
+    opacity: .75; 
+}
+
 #background {
     position: absolute;
     z-index: 0;

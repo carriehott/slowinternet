@@ -24,6 +24,13 @@ header {
     z-index: 1;
 
 }
+
+nav {
+    width: 75%; 
+    margin: auto; 
+    border: 1px white solid; 
+
+}
 h1 {
     margin-top: 3%; 
 }
@@ -71,7 +78,17 @@ iframe {
 #background img {
     width: 25%;
     height: auto;
-    opacity: .5;   
+    opacity: .25;   
+}
+
+#content {
+    width: 75%; 
+    margin: 10% auto; 
+
+}
+
+#what,#where,#schedule,#supplies {
+    border: 1px white solid; 
 }
 
 footer {

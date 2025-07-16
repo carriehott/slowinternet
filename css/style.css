@@ -61,6 +61,7 @@ main p {
 
 section {
     padding: 3%; 
+    line-height: 1.5;
     text-align: left;
     margin-top: 15%;
     background-color: rgba(3, 39, 1, 0.505);
@@ -98,6 +99,10 @@ iframe {
     width: 75%; 
     margin: 10% auto; 
 
+}
+
+.topic {
+    color: lightgreen; 
 }
 
 #what,#where,#schedule,#supplies {

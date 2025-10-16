@@ -172,7 +172,7 @@ left: 30%;
 
 #homepage-links a {
     text-decoration: none;
-    color: rgb(15, 3, 186);
+    color: #0f03ba;
     transition: opacity 0.3s ease;
 }
 
@@ -182,7 +182,7 @@ left: 30%;
 
 .underline {
     text-decoration: underline;
-    text-decoration-color: rgb(251, 0, 255);
+    text-decoration-color: #0f03ba;
     text-decoration-thickness: 2px;
 }
 

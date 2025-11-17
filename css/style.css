@@ -14,7 +14,7 @@ body {
     text-align:justify; 
     font-family: serif;  
     font-weight: light; 
-    color: rgb(255, 252, 252); 
+    color: #0f03ba;
 }
 
 header {
@@ -35,10 +35,6 @@ nav {
 }
 h1 {
     margin-top: 3%; 
-}
-
-a {
-    color: rgb(251, 0, 255); 
 }
 
 marquee {
@@ -173,7 +169,7 @@ left: 30%;
 }
 
 #homepage-links a:hover {
-    opacity: 0.7;
+    background-color: #0f03ba42;
 }
 
 .underline {
